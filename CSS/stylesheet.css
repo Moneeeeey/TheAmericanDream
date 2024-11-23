@@ -1,0 +1,65 @@
+body{
+    background-color: black; 
+    font-family: 'ITCgaramond'; 
+}
+
+@font-face { 
+    font-family: 'ITCgaramond'; 
+    src: url('/Font/ITCGaramondStd-LtCond.otf'); 
+    font-weight: light; 
+    font-style: normal; 
+}
+
+h1 {
+    color: #1569D0;
+    font-size: 14vw; 
+    text-align: center; 
+    margin: 0; 
+    font-family: 'ITCgaramond', sans-serif;
+}
+h4 { 
+    color: #FF0137;
+    font-size: 4.5vw; 
+    text-align: left; 
+    margin-left: 1vw;
+    margin-top: 7vw;
+    font-family: sans-serif;
+    font-weight: 300;
+    position:fixed;
+    z-index: 10
+}
+img {
+    width: 99%; 
+    position: fixed;
+    margin-top: -3.5vw;
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; 
+}
+p{ 
+    color: #ffffff;
+    font-size: 1.5vw; 
+    text-align: left; 
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: 3vw;
+    
+}
+.text{
+    margin: 4vw;
+    padding-top: 12vw;
+    transition: opacity 0.4s ease-out;
+}
+.text2{
+    margin: 4vw;
+    transition: opacity 1s ease-out;
+}
+.text3{
+    margin: 4vw;
+    transition: opacity 1.5s ease-out;
+}
+.text4{
+    margin: 4vw;
+    transition: opacity 0.1s ease-out;
+}
