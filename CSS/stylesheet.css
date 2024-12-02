@@ -9,6 +9,11 @@ body{
     src: url('/Font/ITCGaramondStd-LtCond.otf'); 
     font-weight: light; 
     font-style: normal; 
+
+    font-family: 'Dia';
+    src: url('/Font/abc-diatype-regular.otf'); 
+    font-weight: light; 
+    font-style: normal; 
 }
 
 h1 {
@@ -24,7 +29,7 @@ h4 {
     text-align: left; 
     margin-left: 1vw;
     margin-top: 7vw;
-    font-family: sans-serif;
+    font-family:Helvetica, sans-serif;
     font-weight: 300;
     position:fixed;
     z-index: 10
@@ -36,13 +41,20 @@ h4 {
     height: auto; /* Maintain aspect ratio */
     z-index: 10; 
 }
+.titleHeader{
+    width: 30vw; 
+    height: auto; /* Maintain aspect ratio */
+    position: fixed;
+    margin-top: 9vw;
+    margin-left: 68vw;
+    z-index: 10; 
+}
 p{ 
     color: #ffffff;
     font-size: 1.5vw; 
     text-align: left; 
     margin-left: 1vw;
-    margin-top: 0.5vw;
-    font-family: sans-serif;
+    font-family: dia;
     font-weight: 200;
     margin-top: 3vw;
     
@@ -80,3 +92,8 @@ p{
     aspect-ratio: 4 / 3;
 }
 
+.header{
+    font-size: 22vw;
+    color: #ffffff;
+
+}
